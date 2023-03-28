@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Image Uploader</title>
+
+    <link rel="stylesheet" href="c.css" />
+  </head>
+
+  <body>
+    <div class="image-container">
+        <h2> Shapes to resize images</h2>
+      <img id="diamond" src="shapes/diamond.png" />
+      <img id="circle" src="shapes/circle.png" />
+      <img id="heart" src="shapes/heart.png" />
+      <img id="rectangle" src="shapes/rectangle.png" />
+      <img id="square" src="shapes/square.png" />
+    </div>
+
+    <div class="file-container">
+      <input type="file" id="file" />
+    </div>
+    <h5> Choose image more than 550px*550px for better result</h5>
+
+    <img id="hidden" />
+
+    <canvas id="canvas"></canvas>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="j.js"></script>
+  </body>
+</html>

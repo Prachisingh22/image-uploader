@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 19px;
+  padding: 0;
+}
+
+.image-container {
+  height: 100px;
+  text-align: center;
+}
+
+.image-container img {
+  width: 100px;
+}
+
+#hidden {
+  display: none;
+}
+
+:root {
+  --green: #00703c;
+  --light-white: white;
+  --dark-green: rgb(9, 78, 9);
+  --grey: #f2f2f2;
+}
+h5{
+    color: maroon;
+    padding-left: 570px;
+}
+#canvas {
+  width: 100%;
+  padding-left: 508px;
+  
+
+}
+
+.file-container {
+  position: relative;
+  left: 350px;
+  border-top: 2px solid black;
+  text-align: center;
+  margin-top: 100px;
+  display: block;
+  width: 50%;
+  margin-right: -90%;
+  padding: 6px 0px;
+  border-radius: 15px;
+  background: var(--green);
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.file-container:hover {
+  background: var(--dark-green);
+}
